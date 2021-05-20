@@ -2429,7 +2429,7 @@ p {
         line-height: 45px; } }
   .slider-content .text {
     color: #fff;
-    font-size: 16px;
+    font-size: 18px; /*DA5H font-size: 16px;*/
     line-height: 24px;
     margin-top: 16px; }
   .slider-content .slider-btn {
