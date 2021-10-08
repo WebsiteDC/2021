@@ -3104,7 +3104,7 @@ p {
 ===========================*/
 input#website {  /* DA5H | Honeypot*/
   /* display: none; */
-  color: green;
+  color: RED;
 }
 
 .contact-area {
