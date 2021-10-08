@@ -151,6 +151,15 @@ $(function() {
     });
     
     
+    //===== Honeypot (DA5H)
+    
+    $('form').submit(function(){    
+        if ($('input#website').val().length != 0) {
+            return false;
+        } 
+    });
+    
+    
     //====== Magnific Popup
     
     $('.video-popup').magnificPopup({
