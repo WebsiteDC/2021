@@ -3102,10 +3102,7 @@ p {
 /*===========================
       19.CONTACT css 
 ===========================*/
-input#website {
-  /* display: none; */
-  color: green;
-} /* DA5H | Honeypot*/
+input#website { display: none; } /* DA5H | Honeypot*/
 
 .contact-area {
   padding-top: 120px;
