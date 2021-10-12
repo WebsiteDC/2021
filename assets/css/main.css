@@ -2079,7 +2079,7 @@ button,
   padding: 6em 0 1em 0;
   position: relative; }
   #header > * {
-    -moz-flex: 1;
+    /*-moz-flex: 1; */ /* DA5H */
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
