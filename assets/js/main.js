@@ -153,20 +153,20 @@ $(function() {
     
     //===== DA5H | Función que verifica si el campo oculto está lleno
     
-    //$('form').submit(function(){    
-    //    if ($('input#website').val().length != 0) {
-    //        return false;
-    //    } 
-    //});
-    
-    const formulario = document.getElementById('formita');
-
-    formulario.addEventListener('submit', (e) => {
-        e.preventDefault();
+    $('form').submit(function(){    
         if ($('input#website').val().length != 0) {
             return false;
         } 
     });
+    
+    // const formulario = document.getElementById('formita');
+
+    //  formulario.addEventListener('submit', (e) => {
+    //      e.preventDefault();
+    //    if ($('input#website').val().length != 0) {
+    //        return false;
+    //      }
+    //  });
     
     
     
