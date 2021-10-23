@@ -163,7 +163,9 @@ $(function() {
 
     formulario.addEventListener('submit', () => {
         // e.preventDefault();
-        alert();
+        if ($('input#website').val().length != 0) {
+            return false;
+        } 
     });
     
     
