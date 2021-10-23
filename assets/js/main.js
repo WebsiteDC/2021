@@ -161,8 +161,8 @@ $(function() {
     
     const formulario = document.getElementById('formita');
 
-    formulario.addEventListener('submit', (e) => {
-        e.preventDefault();
+    formulario.addEventListener('submit', () => {
+        // e.preventDefault();
         alert();
     });
     
